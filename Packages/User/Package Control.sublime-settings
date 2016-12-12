@@ -1,0 +1,26 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Block Cursor Everywhere",
+		"Color Highlighter",
+		"ColorPicker",
+		"CTags",
+		"Git",
+		"GitGutter",
+		"GoToLastEdit",
+		"IMESupport",
+		"Package Control",
+		"QuickXDev",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-lua",
+		"Terminal",
+		"Theme - SoDaReloaded",
+		"Vintageous"
+	]
+}
