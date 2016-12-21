@@ -9,7 +9,7 @@
 { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },//跳转到当前的某个方法
 { "keys": ["ctrl+shift+w"], "command": "close_all" },
 { "keys": ["ctrl+shift+s"], "command": "save_all" },
-{ "keys": ["ctrl+m"], "command": "toggle_side_bar" },
+{ "keys": ["ctrl+m"], "command": "toggle_distraction_free" },
 { "keys": ["ctrl+alt+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 { "keys": ["f11"], "command": "build" },
 { "keys": ["ctrl+f11"], "command": "build" },
