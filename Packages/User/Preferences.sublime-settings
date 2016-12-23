@@ -35,5 +35,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true,
 	"show_encoding": true,
-	"bold_folder_labels": true
+	"bold_folder_labels": true,
+    "always_show_minimap_viewport": true
 }
