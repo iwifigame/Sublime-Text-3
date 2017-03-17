@@ -22,4 +22,5 @@
 { "keys": ["ctrl+."], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
 { "keys": ["ctrl+f"], "command": "move", "args": {"by": "pages", "forward": true} },
 { "keys": ["ctrl+b"], "command": "move", "args": {"by": "pages", "forward": false} },
+{ "keys": ["ctrl+shift+a"], "command": "file_header_add_header", "args":{ "paths": [] } }
 ]

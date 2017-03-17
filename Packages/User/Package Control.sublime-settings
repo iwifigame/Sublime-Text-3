@@ -12,6 +12,7 @@
 		"ConvertToUTF8",
 		"CTags",
 		"DashDoc",
+		"FileHeader",
 		"Git",
 		"GitGutter",
 		"GoToLastEdit",
