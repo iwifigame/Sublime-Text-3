@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+local ${1:Name} = class("${1:Name}", function()
+	return display.newNode()
+end)
+
+function ${1:name}:ctor()
+end
+
+return  ${1:Name}
+]]></content>
+	<tabTrigger>class</tabTrigger>
+	<scope>source.lua</scope>
+	<description>New Class</description>
+</snippet>
