@@ -1,8 +1,5 @@
 {
-    // "shell_cmd": "E:/android/cocos2d-x-3.10/build/Debug.win32/lua-tests/lua-tests.exe"
-    // "shell_cmd": "E:/android/cocos2d-x-3.13/build/Debug.win32/Mahjong/Mahjong.exe"
-    // "shell_cmd": "E:/android/cocos2d-x-3.14/build/Debug.win32/OLMahjong/Mahjong.exe"
-    // "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/GirlTouch/lua-tests.exe"
-    // "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/FYMahjong/lua-tests.exe"
-    "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/OLMahjong/lua-tests.exe"
+    // "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/GirlTouch/模拟器.exe"
+    "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/FYMahjong/模拟器.exe"
+    // "shell_cmd": "E:/android/cocos2d-x-3.14/tests/working/OLMahjong/模拟器.exe"
 }
