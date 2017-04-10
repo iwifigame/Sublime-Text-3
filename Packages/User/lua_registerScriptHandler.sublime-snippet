@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+registerScriptHandler(function(eventName)
+	if "enter" == eventName then
+	elseif "exit" == eventName then
+		self:removeAllRegistedListener()
+	end
+end)
+]]></content>
+    <tabTrigger>registerScriptHandler</tabTrigger>
+    <scope>source.lua</scope>
+    <description>registerScriptHandler</description>
+</snippet>
