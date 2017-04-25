@@ -4,6 +4,7 @@
 /Packages/.logs/
 /Packages/User/Package Control.cache/
 /Packages/User/QuickXDev.cache/
+/Index/
 
 /Packages/User/Package Control.cache/
 /Packages/User/QuickXDev.cache/
@@ -14,4 +15,5 @@
 /Packages/Colorsublime - Themes/
 
 *.tmTheme
+/Cache/
 
