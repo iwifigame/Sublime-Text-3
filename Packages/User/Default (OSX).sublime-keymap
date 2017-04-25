@@ -1,28 +1,44 @@
 [
 { "keys": ["alt+/"], "command": "auto_complete" },//自动提示
 { "keys": ["ctrl+shift+f"], "command": "reindent" , "args":{"single_line": false}},//格式化代码
+{ "keys": ["super+shift+f"], "command": "reindent" , "args":{"single_line": false}},//格式化代码
 { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }, //打开工程中的某个文件
 { "keys": ["super+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }, //打开工程中的某个文件
-{ "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }, //打开工程中的某个文件
 { "keys": ["f3"], "command": "goto_definition" },//跳转到定义，比如在某个函数上按此键，则跳转到它的定义。
 { "keys": ["f3"], "command": "navigate_to_definition"},
 { "keys": ["alt+left"], "command": "jump_back" },//跳转到上一个编辑处
 { "keys": ["alt+right"], "command": "jump_forward" },
 { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },//跳转到当前的某个方法
+{ "keys": ["super+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },//跳转到当前的某个方法
+{ "keys": ["ctrl+shift+w"], "command": "close_all" },
 { "keys": ["super+shift+w"], "command": "close_all" },
 { "keys": ["ctrl+shift+s"], "command": "save_all" },
+{ "keys": ["super+shift+s"], "command": "save_all" },
 { "keys": ["ctrl+m"], "command": "toggle_distraction_free" },
+{ "keys": ["super+m"], "command": "toggle_distraction_free" },
 { "keys": ["ctrl+alt+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+{ "keys": ["super+alt+h"], "command": "show_panel", "args": {"panel": "find_in_files"} },
 { "keys": ["f11"], "command": "build" },
 { "keys": ["ctrl+f11"], "command": "build" },
+{ "keys": ["super+f11"], "command": "build" },
 { "keys": ["f12"], "command": "cancel_build" },
 { "keys": ["alt+shift+r"], "command": "find_all_under" }, //重构
 // 在当前行的下一行插入空行(这时鼠标可以在当前行的任一位置, 不一定是最后)
 { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
 { "keys": ["ctrl+e"], "command": "show_buffers" },
+{ "keys": ["super+e"], "command": "show_buffers" },
 { "keys": ["ctrl+y"], "command": "redo" },
+{ "keys": ["super+y"], "command": "redo" },
 { "keys": ["ctrl+."], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
+{ "keys": ["super+."], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
 { "keys": ["ctrl+f"], "command": "move", "args": {"by": "pages", "forward": true} },
+{ "keys": ["super+f"], "command": "move", "args": {"by": "pages", "forward": true} },
 { "keys": ["ctrl+b"], "command": "move", "args": {"by": "pages", "forward": false} },
-{ "keys": ["ctrl+shift+a"], "command": "file_header_add_header", "args":{ "paths": [] } }
+{ "keys": ["super+b"], "command": "move", "args": {"by": "pages", "forward": false} },
+{ "keys": ["ctrl+shift+a"], "command": "file_header_add_header", "args":{ "paths": [] } },
+{ "keys": ["super+shift+a"], "command": "file_header_add_header", "args":{ "paths": [] } },
+{ "keys": ["ctrl+pageup"], "command": "prev_view" },
+{ "keys": ["super+pageup"], "command": "prev_view" },
+{ "keys": ["ctrl+pagedown"], "command": "next_view" },
+{ "keys": ["super+pagedown"], "command": "next_view" },
 ]
