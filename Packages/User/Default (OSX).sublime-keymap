@@ -4,8 +4,8 @@
 { "keys": ["super+shift+f"], "command": "reindent" , "args":{"single_line": false}},//格式化代码
 { "keys": ["ctrl+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }, //打开工程中的某个文件
 { "keys": ["super+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} }, //打开工程中的某个文件
-{ "keys": ["f3"], "command": "goto_definition" },//跳转到定义，比如在某个函数上按此键，则跳转到它的定义。
 { "keys": ["f3"], "command": "navigate_to_definition"},
+{ "keys": ["f3"], "command": "goto_definition" },//跳转到定义，比如在某个函数上按此键，则跳转到它的定义。
 { "keys": ["alt+left"], "command": "jump_back" },//跳转到上一个编辑处
 { "keys": ["alt+right"], "command": "jump_forward" },
 { "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },//跳转到当前的某个方法
